@@ -1,0 +1,28 @@
+.container {
+  height: 90px;
+  background-color: #455969;
+  color: #F7F7F0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  margin-top: 20px;
+  border-top: solid 2px #F7F7F0;
+  height: 50px;
+  width: 95%;
+  font-size: 0.7em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  height: 50px;
+  width: 95%;
+  font-size: 0.7em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
