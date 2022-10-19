@@ -36,4 +36,14 @@
   width: 30px;
   margin-left: 6px;
   margin-right: 6px;
+}
+
+.indexContaint {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgBg {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
