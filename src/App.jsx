@@ -1,13 +1,14 @@
 import React from 'react';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import IndexContent from './components/IndexContent'
+import CharlesCantinSignature from './components/CharlesCantinSignature';
+
 
 function App() {
   return (
     <div>
       <Header />
-      <IndexContent />
+        <CharlesCantinSignature /> 
       <Footer />
     </div>
     

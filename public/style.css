@@ -1,34 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 
-.container {
-  height: 90px;
-  background-color: #455969;
-  color: #F7F7F0;
+html, body {
+  height: 800px;
+}
+
+.container-logo {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: -4px;
+  height: 90px;
+  width: auto;
+  border-bottom: solid 2px #dadacc;
+  justify-content: space-between;
   align-items: center;
+  background-color: #455969;
+  color: #dadacc;
 }
 
 .footer {
-  margin-top: 20px;
-  border-top: solid 2px #F7F7F0;
+  margin-top: 50px;
+  border-top: solid 2px #dadacc;
   height: 50px;
   width: 95%;
   font-size: 0.7em;
+  color: #dadacc;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.header {
-  justify-content: start;
-  height: 50px;
-  width: 95%;
-  font-size: 0.7em;
-  margin-top: 14px;
 }
 
 .logo-size {
@@ -38,12 +41,58 @@
   margin-right: 6px;
 }
 
-.indexContaint {
+.indexContent {
+  background-color: #455969;
   display: flex;
+  height: 100vh;
   justify-content: center;
   align-items: center;
 }
 
 .imgBg {
   width: 100%;
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #455969;
+  position: relative;
+  bottom: 0px;
+  height: auto;
+  width: 100%;
+}
+
+.menuButton {
+  margin-right: 8px;
+  height: 30px;
+  width: 120px;
+  color: #dadacc;
+  background-color: rgba(125, 145, 173, 0.5019607843);
+  border-radius: 5px;
+}
+
+.charlesCantinSignature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #455969;
+  color: #dadacc;
+  height: 80vh;
+  width: 100%;
+}
+
+.charlesCantinLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 500px;
+  border-top: 10px #dadacc solid;
+  border-bottom: 10px #dadacc solid;
+  font-family: "Nova Mono", monospace;
+  font-size: 3rem;
+  letter-spacing: 0.4rem;
 }/*# sourceMappingURL=style.css.map */
