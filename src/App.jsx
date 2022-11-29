@@ -1,17 +1,16 @@
-import React from 'react';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import CharlesCantinSignature from './components/CharlesCantinSignature';
-
+import React from "react";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import CharlesCantinSignature from "./components/CharlesCantinSignature";
 
 function App() {
   return (
     <div>
       <Header />
-        <CharlesCantinSignature /> 
+      <CharlesCantinSignature />
       <Footer />
     </div>
-    
+
   );
 }
 
